@@ -1,4 +1,4 @@
-const mapboxgl = require("@mapbox");
+const mapboxgl = require('mapbox-gl');
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuaWVscmVlZDk5OCIsImEiOiJjamE5c3J5ZjQwa2djMnFxdXd6OXlsMDNhIn0.RMyjYQKmEEZhNIhqx2pfKA';
 
