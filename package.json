@@ -1,12 +1,12 @@
 {
-    "devDependencies": {
-        "mapbox-gl": "^0.42.1",
-        "webpack": "^3.8.1"
-    },
-    "scripts": {
-        "start": "webpack -w"
-    },
-    "dependencies": {
-        "@mapbox/geojson-area": "^0.2.2"
-    }
+  "devDependencies": {
+    "mapbox-gl": "^0.42.1",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.42.1"
+  }
 }

@@ -6,4 +6,73 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #C1B5AD;
+    height: 100vh;
 }
+
+#map {
+    flex-grow: 3;
+    height: 100%;
+    width: 75%
+  }
+
+  #activities>div {
+    margin: 5px;
+}
+
+  #activities {
+      display: flex;
+      /* float: right; */
+      /* background-color:; */
+      height: 100%;
+      /* width: 20%; */
+      z-index: 10;
+      flex-grow: 1;
+      width: 15%;
+      flex-direction: column;
+      background-color: white;
+      
+
+  }
+
+  h3 {
+      font-size: 1em;
+  }
+
+  .activity {
+      flex-grow: 1;
+  }
+
+  #activities img {
+      height: 33%
+  }
+  
+  #main {
+      display: flex;
+      height: 100%;
+      
+  }
+  
+  #kfc {
+      height: 33%;
+    background-color: red
+  }
+
+  #kfc img{
+      height: 100%;
+      width: 100%;
+
+  }
+  #things{
+    
+    background-color: #b1d06ded;
+    padding: 5px;
+
+  }
+
+  #itin{
+    background-color: lightblue;
+    padding: 5px;
+  
+      
+  }
+
